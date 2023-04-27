@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1, 6;
+    margin: 0;
+    padding: 0;
+    color: #2c09f7;
+    background-image: url(https://img.freepik.com/vetores-premium/linhas-de-circuito-abstrato-tecnologia-futurista-digital-fundo-de-alta-tecnologia-ilustracao-vetorial_115579-1746.jpg);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* adiciona display flex para deixar os itens em linha */
+}
+
+nav li {
+    margin-right: 20px;
+    /* adiciona um espaçamento entre os itens */
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ca4f07f1;
+}
+
+nav a:hover {
+    background-color: #38b1e9;
+    color: #fff;
+}
+
+<!--inicio do container-->.container {
+    max-width: 900;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(255, 217, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.icone-circular {
+    border-radius: 50%;
+  }
